@@ -30,10 +30,10 @@ class Theme_Mover {
 
     /**
      * creat directory of the theme then init reg_theme method
-     * @access protected
+     * @access public
      * @return bolean
      */
-    protected function creat_dir() {
+    public function creat_dir() {
         if ( !file_exists( $this->path ) ) {
             mkdir( $this->path, 0755, true );
         }
@@ -43,10 +43,10 @@ class Theme_Mover {
 
     /**
      * creat directory of the theme
-     * @access protected
+     * @access public
      * @return bolean
      */
-    protected function reg_theme() {
+    public function reg_theme() {
         register_theme_directory( $this->path );
     }
 }
