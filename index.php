@@ -9,5 +9,8 @@ Author URI: http://www.charlesstrube.com
 
 
 require_once( dirname(__FILE__) . '/Theme_Mover.php' );
+
+// change the name of your directory here
 $myFolder = 't';
+
 new Theme_Mover($myFolder);
