@@ -17,7 +17,7 @@ Provides an additional location for themes. You don't need the creat the directo
 
 ## Option
 
-Change the var $myFolder inside index.php if you want a different directory
+Change the var $myFolder inside `index.php` if you want a different directory
 
 ```php
 // change the name of your directory here
